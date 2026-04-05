@@ -23,9 +23,11 @@ To build strong practical knowledge in:
 
 ##  Progress
 
-- ✅ Day 01 – Cloud Computing Fundamentals  
-- ⏳ Day 02 – In Progress  
-- ⏳ More updates coming daily...  
+## 📅 Progress Status
+
+| Day | Topic | Status |
+|-----|--------|--------|
+| 🟩 Day 01 | Cloud Computing Fundamentals |✅ Completed |
 
 ---
 
