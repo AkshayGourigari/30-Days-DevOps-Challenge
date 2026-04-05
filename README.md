@@ -34,6 +34,7 @@ To build strong practical knowledge in:
 | 🟩 Day 03 | Linux File Permissions | ✅ Completed |
 | 🟩 Day 04 | Advanced Linux Commands | ✅ Completed |
 | 🟩 Day 05 | Text Processing Tools (find, awk, sed) | ✅ Completed |
+| 🟩 Day 06 | Log Analyzer Project (Shell Scripting, AWS EC2) | ✅ Completed |
 ---
 
 ## 🔥 Goal
