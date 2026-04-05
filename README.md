@@ -23,12 +23,17 @@ To build strong practical knowledge in:
 
 ##  Progress
 
-## 📅 Progress Status
+## Progress Status
+
+## Progress Status
 
 | Day | Topic | Status |
 |-----|--------|--------|
-| 🟩 Day 01 | Cloud Computing Fundamentals |✅ Completed |
-
+| 🟩 Day 01 | Cloud Computing Fundamentals | ✅ Completed |
+| 🟩 Day 02 | Linux Basics | ✅ Completed |
+| 🟩 Day 03 | Linux File Permissions | ✅ Completed |
+| 🟩 Day 04 | Advanced Linux Commands | ✅ Completed |
+| 🟩 Day 05 | Text Processing Tools (find, awk, sed) | ✅ Completed |
 ---
 
 ## 🔥 Goal
