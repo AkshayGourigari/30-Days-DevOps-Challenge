@@ -35,6 +35,7 @@ To build strong practical knowledge in:
 | 🟩 Day 04 | Advanced Linux Commands | ✅ Completed |
 | 🟩 Day 05 | Text Processing Tools (find, awk, sed) | ✅ Completed |
 | 🟩 Day 06 | Log Analyzer Project (Shell Scripting, AWS EC2) | ✅ Completed |
+🟩 Day 07	 | Git & GitHub Workflow (Branching, Merging, Version Control) | ✅ Completed |
 ---
 
 ## 🔥 Goal
