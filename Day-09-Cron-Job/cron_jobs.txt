@@ -1,0 +1,5 @@
+# Run log cleanup every minute
+* * * * * /home/ec2-user/Day-09-Cron-Jobs/log_cleanup.sh
+
+# Run backup daily at 2 AM
+0 2 * * * /home/ec2-user/Day-09-Cron-Jobs/backup.sh
