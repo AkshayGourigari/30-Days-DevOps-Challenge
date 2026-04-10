@@ -37,6 +37,8 @@ To build strong practical knowledge in:
 | 🟩 Day 06 | Log Analyzer Project (Shell Scripting, AWS EC2) | ✅ Completed |
 | 🟩 Day 07	 | Git & GitHub Workflow (Branching, Merging, Version Control) | ✅ Completed |
 | 🟩 Day 08 | Shell Scripting (Automation, Backup, Log Processing, System Monitoring) | ✅ Completed |
+| 🟩 Day 09 | Cron Jobs (Scheduling Automation Scripts, Log Cleanup & Backup Automation) | ✅ Completed |
+| 🟩 Day 10 | Advanced Shell Scripting (User Input, Conditions, Loops, System Monitoring) | ✅ Completed |
 ---
 
 ## 🔥 Goal
