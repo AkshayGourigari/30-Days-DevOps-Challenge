@@ -1,0 +1,20 @@
+# Example of a Merge Conflict in Git
+
+<<<<<<< HEAD
+This line is from the main branch
+=======
+This line is from the feature branch
+>>>>>>> feature-branch
+
+# Explanation:
+# <<<<<<< HEAD → Current branch (main)
+# =======      → Separator
+# >>>>>>>      → Incoming branch (feature-branch)
+
+# How to Resolve:
+# 1. Remove conflict markers
+# 2. Keep the correct code
+
+# Example (Resolved):
+
+This line is from both branches (merged manually)
