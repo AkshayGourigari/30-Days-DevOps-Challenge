@@ -39,6 +39,7 @@ To build strong practical knowledge in:
 | 🟩 Day 08 | Shell Scripting (Automation, Backup, Log Processing, System Monitoring) | ✅ Completed |
 | 🟩 Day 09 | Cron Jobs (Scheduling Automation Scripts, Log Cleanup & Backup Automation) | ✅ Completed |
 | 🟩 Day 10 | Advanced Shell Scripting (User Input, Conditions, Loops, System Monitoring) | ✅ Completed |
+| 🟩 Day 11 | Advanced Git (Stash, Rebase, Merge Conflicts, Version Control Workflows) | ✅ Completed |
 ---
 
 ## 🔥 Goal
