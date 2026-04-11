@@ -1,0 +1,43 @@
+# Git Rebase Detailed Notes
+
+What is Rebase?
+Rebase is the process of moving or reapplying commits from one branch onto another.
+
+Why use Rebase?
+- Keeps commit history clean and linear
+- Avoids unnecessary merge commits
+- Makes project history easier to understand
+
+Example Workflow:
+
+1. Create feature branch
+git checkout -b feature-branch
+
+2. Make some commits
+
+3. Switch to main branch and update it
+git checkout main
+git pull origin main
+
+4. Go back to feature branch
+git checkout feature-branch
+
+5. Rebase onto main
+git rebase main
+
+Result:
+Your commits are placed on top of the latest main branch
+
+Important Notes:
+- Do not use rebase on shared/public branches
+- Always resolve conflicts carefully
+
+Rebase vs Merge:
+
+Merge:
+- Keeps history as is
+- Adds extra merge commit
+
+Rebase:
+- Rewrites history
+- Keeps it clean and linear
