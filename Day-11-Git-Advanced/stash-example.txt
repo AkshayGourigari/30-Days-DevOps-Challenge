@@ -1,0 +1,22 @@
+# Git Stash Example Workflow
+
+Step 1: Modify a file
+Example: Edit index.html
+
+Step 2: Save changes temporarily
+git stash
+
+Output:
+Saved working directory and index state
+
+Step 3: Switch branch
+git checkout main
+
+Step 4: Apply stash
+git stash pop
+
+Output:
+Changes restored successfully
+
+# Result:
+Your uncommitted changes are restored in the new branch
