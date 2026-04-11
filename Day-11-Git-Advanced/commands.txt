@@ -1,0 +1,61 @@
+# ==============================
+# Git Stash Commands
+# ==============================
+
+# Save current changes (without commit)
+git stash
+
+# View list of stashes
+git stash list
+
+# Apply last stash (keeps stash)
+git stash apply
+
+# Apply and remove stash
+git stash pop
+
+# Drop a specific stash
+git stash drop stash@{0}
+
+
+# ==============================
+# Git Rebase Commands
+# ==============================
+
+# Switch to feature branch
+git checkout feature-branch
+
+# Rebase feature branch onto main
+git rebase main
+
+# Continue rebase after resolving conflicts
+git rebase --continue
+
+# Abort rebase if needed
+git rebase --abort
+
+
+# ==============================
+# Merge Conflict Commands
+# ==============================
+
+# Merge branch (may cause conflict)
+git merge feature-branch
+
+# Check status (see conflicted files)
+git status
+
+# After resolving conflicts
+git add file_name
+git commit
+
+
+# ==============================
+# Helpful Commands
+# ==============================
+
+# View commit history
+git log --oneline
+
+# View branches
+git branch
