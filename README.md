@@ -40,6 +40,10 @@ To build strong practical knowledge in:
 | 🟩 Day 09 | Cron Jobs (Scheduling Automation Scripts, Log Cleanup & Backup Automation) | ✅ Completed |
 | 🟩 Day 10 | Advanced Shell Scripting (User Input, Conditions, Loops, System Monitoring) | ✅ Completed |
 | 🟩 Day 11 | Advanced Git (Stash, Rebase, Merge Conflicts, Version Control Workflows) | ✅ Completed |
+| 🟩 Day 12 | Networking Basics (OSI Model, TCP/IP, DNS, HTTP/HTTPS, Ports) | ✅ Completed |
+| 🟩 Day 13 | Docker Basics (Installation, Images, Containers, Basic Commands) | ✅ Completed |
+| 🟩 Day 14 | Docker Images & Containers (Dockerfile, Image Lifecycle, Container Management) | ✅ Completed |
+| 🟩 Day 15 | Docker Volumes & Networking (Data Persistence, Bind Mounts, Container Communication, Docker Compose) | ✅ Completed |
 ---
 
 ## 🔥 Goal
