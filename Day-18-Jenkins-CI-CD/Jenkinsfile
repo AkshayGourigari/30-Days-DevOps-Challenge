@@ -1,0 +1,33 @@
+pipeline {
+    agent any
+
+    stages {
+
+        stage('Checkout') {
+            steps {
+                echo "Fetching code from repository..."
+            }
+        }
+
+        stage('Build') {
+            steps {
+                echo "Building project using Maven..."
+                sh 'mvn clean compile'
+            }
+        }
+
+        stage('Test') {
+            steps {
+                echo "Running tests..."
+                sh 'mvn test'
+            }
+        }
+
+        stage('Package') {
+            steps {
+                echo "Packaging application..."
+                sh 'mvn package'
+            }
+        }
+    }
+}
