@@ -1,0 +1,57 @@
+pipeline {
+    agent any
+
+    environment {
+        APP_NAME = "AdvancedApp"
+    }
+
+    stages {
+
+        stage('Checkout') {
+            steps {
+                echo "Fetching code..."
+            }
+        }
+
+        stage('Build') {
+            steps {
+                echo "Building project..."
+                sh 'mvn clean compile'
+            }
+        }
+
+        stage('Parallel Testing') {
+            parallel {
+
+                stage('Unit Tests') {
+                    steps {
+                        echo "Running unit tests..."
+                        sh 'mvn test'
+                    }
+                }
+
+                stage('Code Quality Check') {
+                    steps {
+                        echo "Running code checks..."
+                    }
+                }
+            }
+        }
+
+        stage('Package') {
+            steps {
+                echo "Packaging application..."
+                sh 'mvn package'
+            }
+        }
+    }
+
+    post {
+        success {
+            echo "Pipeline executed successfully!"
+        }
+        failure {
+            echo "Pipeline failed!"
+        }
+    }
+}
