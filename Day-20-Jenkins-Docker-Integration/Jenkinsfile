@@ -1,0 +1,50 @@
+pipeline {
+    agent any
+
+    environment {
+        IMAGE_NAME = "myapp"
+        CONTAINER_NAME = "myapp-container"
+    }
+
+    stages {
+
+        stage('Checkout') {
+            steps {
+                git 'https://github.com/YOUR-USERNAME/YOUR-REPO.git'
+            }
+        }
+
+        stage('Build') {
+            steps {
+                sh 'mvn clean package'
+            }
+        }
+
+        stage('Docker Build') {
+            steps {
+                sh 'docker build -t $IMAGE_NAME .'
+            }
+        }
+
+        stage('Clean Old Container') {
+            steps {
+                sh 'docker rm -f $CONTAINER_NAME || true'
+            }
+        }
+
+        stage('Run Container') {
+            steps {
+                sh 'docker run -d -p 8080:8080 --name $CONTAINER_NAME $IMAGE_NAME'
+            }
+        }
+    }
+
+    post {
+        success {
+            echo 'Pipeline executed successfully 🚀'
+        }
+        failure {
+            echo 'Pipeline failed ❌'
+        }
+    }
+}
