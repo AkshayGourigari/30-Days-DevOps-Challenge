@@ -44,6 +44,11 @@ To build strong practical knowledge in:
 | 🟩 Day 13 | Docker Basics (Installation, Images, Containers, Basic Commands) | ✅ Completed |
 | 🟩 Day 14 | Docker Images & Containers (Dockerfile, Image Lifecycle, Container Management) | ✅ Completed |
 | 🟩 Day 15 | Docker Volumes & Networking (Data Persistence, Bind Mounts, Container Communication, Docker Compose) | ✅ Completed |
+| 🟩 Day 16 | Docker Compose (Multi-Container Applications, docker-compose.yml, Service Orchestration) | ✅ Completed |
+| 🟩 Day 17 | Maven (Build Lifecycle, pom.xml, Dependency Management, Packaging) | ✅ Completed |
+| 🟩 Day 18 | Jenkins Basics (CI/CD, Job Creation, Pipeline Introduction, Automation) | ✅ Completed |
+| 🟩 Day 19 | Advanced Jenkins Pipeline (Stages, Parallel Execution, Environment Variables, Post Actions) | ✅ Completed |
+| 🟩 Day 20 | Jenkins + Docker Integration (CI/CD Pipeline, Docker Build, Container Deployment) | ✅ Completed |
 ---
 
 ## 🔥 Goal
